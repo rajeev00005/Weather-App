@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4e8be7 0%, #c3cfe2 100%);
+  background-image: url("https://wallpapersok.com/images/hd/aesthetic-clouds-and-sunset-rope49ghg06j7swh.jpg");
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Custom Shadows & Elevation */
+.shadow-lg-soft {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Centered Container */
+.container-center {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Input Focus Glow */
+.form-control:focus {
+  border-color: #4f9cf9;
+  box-shadow: 0 0 0 0.2rem rgba(79, 156, 249, 0.25);
+}
+
+/* Button Hover Effects */
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header css*/
+.nav-link {
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Weather Card */
+.weather-card {
+  border-radius: 16px !important;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.card-body{
+  background: linear-gradient(135deg, #4e8be7 0%, #c3cfe2 100%);
+}
