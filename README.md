@@ -1,7 +1,7 @@
 # React + Vite
  # WeatherNow
 
-![WeatherNow Screenshot](./src/assets/skyline.avif)
+![WeatherNow Screenshot](./src/assets/weather-website.jpg)
 
 ## ℹ️ About WeatherNow
 
