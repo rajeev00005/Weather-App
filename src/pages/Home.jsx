@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Form, Button, Alert, InputGroup, Badge, ListGroup, Card } from 'react-bootstrap';
 import { fetchWeather } from '../services/weatherService';
 import WeatherCard from '../components/WeatherCard';
-import { saveFavorite, getFavorites, removeFavorite } from '../utils/favorites';
+import { saveFavorite, getFavorites, removeFavorite } from '../utils/Favorites';
 
 const Home = () => {
   const [city, setCity] = useState('');
