@@ -1,5 +1,27 @@
 # React + Vite
+ # WeatherNow
 
+![WeatherNow Screenshot](./src/assets/skyline.avif)
+
+## ℹ️ About WeatherNow
+
+Weather App is a modern weather application built with:
+
+- ⚛️ **React & Vite**
+- 📡 **Axios** for real-time API calls
+- 🎨 **React Bootstrap** for responsive UI
+- 🌤️ **OpenWeatherMap API**
+
+### Features include:
+
+- 🌍 Search weather by city
+- 🌡️ Toggle between Celsius and Fahrenheit
+- 💧 View humidity and weather conditions
+- 📱 Fully responsive design
+
+---
+
+© 2026 WeatherNow App. All rights reserved.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

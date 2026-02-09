@@ -3,11 +3,28 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #4e8be7 0%, #c3cfe2 100%);
+
   background-image: url("https://wallpapersok.com/images/hd/aesthetic-clouds-and-sunset-rope49ghg06j7swh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+
   min-height: 100vh;
   color: #333;
+
+  animation: bgMove 12s ease-in-out infinite alternate;
 }
+
+/* Background moves from left → right */
+@keyframes bgMove {
+  from {
+    background-position: left center;
+  }
+  to {
+    background-position: right center;
+  }
+}
+
 
 /* Custom Shadows & Elevation */
 .shadow-lg-soft {
